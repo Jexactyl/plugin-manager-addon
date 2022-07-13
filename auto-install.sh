@@ -15,7 +15,7 @@ php artisan down
 # Download files and move them to the installation dir
 cd /tmp
 git clone https://github.com/jexactyl/plugin-manager-addon
-cp -R * /var/www/pterodactyl/
+cp -R plugin-manager-addon/* /var/www/pterodactyl/
 
 # Install NodeJS and Yarn
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
