@@ -5,6 +5,16 @@ Please contact me on [Discord](https://discord.com/invite/qttGR4Z5Pk) if you run
 
 ## Automatic Installation 📥
 
+Download and run the bash script provided in this repository to install files.
+
+```bash
+curl -s https://raw.githubusercontent.com/Jexactyl/plugin-manager-addon/main/auto-install.sh
+chmod u+x auto-install.sh
+./auto-install.sh
+```
+
+## Manual Installation 📥
+
 Download the archive from GitHub and extract it into your `/var/www/pterodactyl` install.
 
 ```bash

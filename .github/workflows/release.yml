@@ -8,9 +8,6 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '16.x'
       - name: Create release archive
         run: |
           rm -rf node_modules/ README.md INSTALL.md
@@ -33,6 +30,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: panel.tar.gz
-          asset_name: panel.tar.gz
+          asset_path: plugin.tar.gz
+          asset_name: plugin.tar.gz
           asset_content_type: application/gzip
