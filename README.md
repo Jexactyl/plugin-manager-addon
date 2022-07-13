@@ -25,3 +25,8 @@ If you're looking for a more advanced system, you should definitely check out:
 - https://pterodactylmarket.com/resource/142
 
 ***
+
+# Screenshots 
+### Pterodactyl UI
+![image](images/pterodactyl-plugin-search.png)
+![image](images/pterodactyl-file-manager.png)

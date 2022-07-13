@@ -13,8 +13,8 @@ jobs:
           node-version: '16.x'
       - name: Create release archive
         run: |
-          rm -rf node_modules/ test/ codecov.yml CODE_OF_CONDUCT.md CONTRIBUTING.md phpunit.xml Vagrantfile
-          tar -czf panel.tar.gz * .env.example .eslintignore .eslintrc.js
+          rm -rf node_modules/ README.md INSTALL.md
+          tar -czf panel.tar.gz *
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
