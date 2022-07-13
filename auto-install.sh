@@ -27,6 +27,9 @@ cd /var/www/pterodactyl
 yarn
 yarn build:production
 
+# Assign permissions
+chown -R www-data:www-data /var/www/pterodactyl/*
+
 # Exit script
 clear
 php artisan up
