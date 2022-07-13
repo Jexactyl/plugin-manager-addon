@@ -5,13 +5,17 @@
 apt update
 apt -y upgrade
 
-# Install CuRL
-apt install -y curl
+# Install CuRL and Git
+apt install -y curl git
 
-# Set Panel to maintainence mode, CuRL release archive and extract it
+# Set Panel to maintainence mode
 cd /var/www/pterodactyl
 php artisan down
-curl -L https://github.com/jexactyl/plugin-manager-addon/releases/latest/download/plugin.tar.gz | tar -xzv
+
+# Download files and move them to the installation dir
+cd /tmp
+git clone https://github.com/jexactyl/plugin-manager-addon
+cp -R * /var/www/pterodactyl/
 
 # Install NodeJS and Yarn
 curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
@@ -19,6 +23,7 @@ apt install -y nodejs
 npm i -g yarn
 
 # Build Panel
+cd /var/www/pterodactyl
 yarn
 yarn build:production
 
