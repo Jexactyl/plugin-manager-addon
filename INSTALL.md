@@ -8,9 +8,9 @@ Please contact me on [Discord](https://discord.com/invite/qttGR4Z5Pk) if you run
 Download and run the bash script provided in this repository to install files.
 
 ```bash
-curl -s https://raw.githubusercontent.com/Jexactyl/plugin-manager-addon/main/auto-install.sh
-chmod u+x auto-install.sh
-./auto-install.sh
+sudo curl -Lo auto-install.sh https://raw.githubusercontent.com/Jexactyl/plugin-manager-addon/main/auto-install.sh
+sudo chmod u+x auto-install.sh
+sudo ./auto-install.sh
 ```
 
 ## Manual Installation 📥
