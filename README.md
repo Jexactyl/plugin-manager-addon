@@ -1,4 +1,4 @@
-[![Logo Image](https://cdn.discordapp.com/attachments/696713493168259106/935167710399201320/Jexactyl_textured.png)](https://jexactyl.com)
+[![Logo Image](https://cdn.discordapp.com/attachments/1012411945141424218/1012430446556090468/JexactylBannerBasic.jpg)](https://jexactyl.com)
 # Spigot Plugin Manager (v1) ⛏️
 
 ℹ️ *Designed for Pterodactyl v1.9.x and is featured in Jexactyl v3.2.x and onwards.*
