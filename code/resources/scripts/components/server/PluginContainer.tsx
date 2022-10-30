@@ -10,8 +10,7 @@ import TitledGreyBox from '@/components/elements/TitledGreyBox';
 import FlashMessageRender from '@/components/FlashMessageRender';
 import getPlugins, { Plugin } from '@/api/server/plugins/getPlugins';
 import ServerContentBlock from '@/components/elements/ServerContentBlock';
-import 
-Plugin from '@/api/server/plugins/Plugin';
+import Plugin from '@/api/server/plugins/Plugin';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCloudDownloadAlt, faExternalLinkAlt, faSearch } from '@fortawesome/free-solid-svg-icons';
 
