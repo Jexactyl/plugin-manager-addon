@@ -1,5 +1,5 @@
-# Copyright (c) 2022 Jexactyl Development.
 #!/bin/sh
+# Copyright (c) 2022 Jexactyl Development.
 
 # Update dependencies
 apt update
@@ -8,12 +8,12 @@ apt -y upgrade
 # Install CuRL and Git
 apt install -y curl git
 
-# Set Panel to maintainence mode
-cd /var/www/pterodactyl
+# Set Panel to maintenance mode
+cd /var/www/pterodactyl || exit
 php artisan down
 
 # Download files and move them to the installation dir
-cd /tmp
+cd /tmp || exit
 git clone https://github.com/jexactyl/plugin-manager-addon
 cp -R plugin-manager-addon/code/* /var/www/pterodactyl/
 
@@ -23,7 +23,7 @@ apt install -y nodejs
 npm i -g yarn
 
 # Build Panel
-cd /var/www/pterodactyl
+cd /var/www/pterodactyl || exit
 yarn
 yarn build:production
 
