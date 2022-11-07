@@ -10,6 +10,7 @@ import TitledGreyBox from '@/components/elements/TitledGreyBox';
 import FlashMessageRender from '@/components/FlashMessageRender';
 import getPlugins, { Plugin } from '@/api/server/plugins/getPlugins';
 import ServerContentBlock from '@/components/elements/ServerContentBlock';
+import Plugin from '@/api/server/plugins/Plugin';
 import installPlugin from '@/api/server/plugins/installPlugin';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCloudDownloadAlt, faExternalLinkAlt, faSearch } from '@fortawesome/free-solid-svg-icons';
@@ -110,7 +111,7 @@ export default () => {
                                                         <Button className={'m-1'} onClick={() => setOpen(true)}>
                                                             <FontAwesomeIcon icon={faCloudDownloadAlt} fixedWidth />
                                                         </Button>
-                                                        <a href={`https://api.spiget.org/v2/resources/${plugin.id}/go`}>
+                                                        <a href={`https://api.spiget.org/v2/resources/${plugin.id}/go`} target={'_blank'}>
                                                             <Button className={'m-1'}>
                                                                 <FontAwesomeIcon icon={faExternalLinkAlt} fixedWidth />
                                                             </Button>
