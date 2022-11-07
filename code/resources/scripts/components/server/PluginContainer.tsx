@@ -110,7 +110,7 @@ export default () => {
                                                         <Button className={'m-1'} onClick={() => setOpen(true)}>
                                                             <FontAwesomeIcon icon={faCloudDownloadAlt} fixedWidth />
                                                         </Button>
-                                                        <a href={`https://api.spiget.org/v2/resources/${plugin.id}/go`} target="_blank">
+                                                        <a href={`https://api.spiget.org/v2/resources/${plugin.id}/go`} target={'_blank'}>
                                                             <Button className={'m-1'}>
                                                                 <FontAwesomeIcon icon={faExternalLinkAlt} fixedWidth />
                                                             </Button>
