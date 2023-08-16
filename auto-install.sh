@@ -1,6 +1,18 @@
 #!/bin/sh
 # Copyright (c) 2022 Jexactyl Development.
 
+# Alert users that they are installing a add-on that is from v1.9 (credits to Docker for giving this idea)
+echo "⚠️ This add-on will only work in Pterodactyl v1.9.x."
+echo "Due to the outdated code and multiple updates to the Pterodactyl's code, this add-on will NOT work in any version above or below 1.9.x."
+echo 
+echo "You can still install this add-on, but your Pterodactyl installation will break if you are not in Pterodactyl 1.9.x."
+echo "⚠️ To cancel this installation and keep your Pterodactyl installation working, feel free to exit this script using Control+C."
+echo 
+echo "If you want to use this plugin manager, it is included on Jexactyl v3.2 and higher. Install it using https://jexactyl.com."
+echo 
+echo "This message will expire in 20 seconds."
+sleep 20
+
 # Update dependencies
 apt update
 apt -y upgrade
