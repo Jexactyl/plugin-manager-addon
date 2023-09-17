@@ -1,6 +1,7 @@
 [![Logo Image](https://cdn.discordapp.com/attachments/1012411945141424218/1012430446556090468/JexactylBannerBasic.jpg)](https://jexactyl.com)
 # Spigot Plugin Manager (v1) ⛏️
 
+# PLEASE READ THE VERSION COMPABILITY BEFORE INSTALLING
 ℹ️ *Designed for Pterodactyl v1.9.x and is featured in Jexactyl v3.2.x and onwards.*
 
 This addon allows users to search for and download plugins from the Spigot API.
@@ -23,6 +24,7 @@ Follow the steps in [INSTALL.md](INSTALL.md) for instructions.
 If you're looking for a more advanced system, you should definitely check out:
 - https://pterodactylmarket.com/resource/406
 - https://pterodactylmarket.com/resource/142
+- https://pterodactylmarket.com/resource/326
 
 ***
 

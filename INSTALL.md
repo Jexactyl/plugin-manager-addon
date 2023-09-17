@@ -3,6 +3,10 @@
 ### Need some help? ℹ️
 Please contact me on [Discord](https://discord.com/invite/qttGR4Z5Pk) if you run into any issues during installation.
 
+# BEFORE INSTALLING ⚠️
+
+This add-on will not work on Pterodactyl versions higher or lower than v1.9.x. If you still want to use this plugin manager, consider using Jexactyl. https://jexactyl.com
+
 ## Automatic Installation 📥
 
 Download and run the bash script provided in this repository to install files.
